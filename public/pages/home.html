@@ -1,0 +1,40 @@
+<h2 ng-if="!user">Welcome! Please log in.</h2>
+
+<h2 ng-if="user">Welcome
+  <a href="/logout">
+    {{displayName}}</a>!
+</h2>
+
+<div class="container">
+  <div class="col-md-3">
+    <div class="row">
+      <img alt="" src="http://placehold.it/200x300?text=updates+and+news">
+    </div>
+    <div class="row">
+      <img alt="" src="http://placehold.it/200x700?text=live+feed">
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="row">
+      <img alt="" src="http://placehold.it/400x300?text=countdown">
+    </div>
+    <div class="row">
+      <span>Deposited:
+      </span>
+      <span>Win %:
+      </span>
+    </div>
+    <div class="row">
+      <img alt="" src="http://placehold.it/400x700?text=skins+deposited">
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <img alt="" src="http://placehold.it/200x300">
+    <a href="auth/steam">
+      <img alt="" src="https://steamcommunity-a.akamaihd.net/public/images/signinthroughsteam/sits_small.png"/>
+    </a>
+  </div>
+
+</div>
